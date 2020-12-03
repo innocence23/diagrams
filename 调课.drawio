@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T08:24:45.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="kpMm0K0aSaPNQAvZMtz4" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T08:35:54.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="tbvflBkSLH72Zf-8Rjlg" version="13.10.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2965" dy="1368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -262,7 +262,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-63" value="记录调课日志，更新到数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1215" y="830" width="140" height="61" as="geometry" />
+          <mxGeometry x="1215" y="835" width="140" height="61" as="geometry" />
         </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mBq-_NJuJj3De-6gyGRU-64" target="mBq-_NJuJj3De-6gyGRU-65">
           <mxGeometry relative="1" as="geometry" />
@@ -277,6 +277,9 @@
           <mxGeometry x="1215" y="1120" width="140" height="61" as="geometry" />
         </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mBq-_NJuJj3De-6gyGRU-66" target="mBq-_NJuJj3De-6gyGRU-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBq-_NJuJj3De-6gyGRU-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mBq-_NJuJj3De-6gyGRU-66" target="mBq-_NJuJj3De-6gyGRU-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-66" value="维护班级小组之间的缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -296,12 +299,6 @@
         <mxCell id="mBq-_NJuJj3De-6gyGRU-72" value="处理退虚拟班名额" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1215" y="1400" width="140" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="mBq-_NJuJj3De-6gyGRU-73" value="删除用户场次信息缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1495" y="2029" width="140" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="mBq-_NJuJj3De-6gyGRU-75" value="删除用户场次信息缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1655" y="2055" width="135" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mBq-_NJuJj3De-6gyGRU-76" target="mBq-_NJuJj3De-6gyGRU-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -320,8 +317,8 @@
         <mxCell id="mBq-_NJuJj3De-6gyGRU-78" value="处理临调实体班的临调学员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1215" y="1550" width="140" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="mBq-_NJuJj3De-6gyGRU-82" value="细节待会在看" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1095" y="1280.5" width="90" height="20" as="geometry" />
+        <mxCell id="mBq-_NJuJj3De-6gyGRU-82" value="旧班级，旧小组，及学员关系，&lt;br&gt;组下学员数，班下学员数等等一些列缓存&lt;br&gt;新的班级，小组，学员关系缓存，及学员数缓存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#FFF2CC;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="925" y="1265.5" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mBq-_NJuJj3De-6gyGRU-83" value="此处可选择优化，&lt;br&gt;目前全部循环退名额了&lt;br&gt;可选择调过场的退名额，退虚拟班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#FFF2CC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="975" y="1405.5" width="200" height="50" as="geometry" />
