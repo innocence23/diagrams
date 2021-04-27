@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T08:55:11.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.6" etag="fsDq1X2ull_nKf8g90O4" type="github"><diagram id="HXFLVk8YkSNW53UGWzgU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-27T09:22:03.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="8I86iRbFbhNiyDJPUGNe" version="14.6.6" type="github">
+  <diagram id="HXFLVk8YkSNW53UGWzgU" name="Page-1">
+    <mxGraphModel dx="1577" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zuwN0icWQ509iTbFPfPg-2" value="page_conf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="20" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zuwN0icWQ509iTbFPfPg-3" target="zuwN0icWQ509iTbFPfPg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-3" value="根据uni和taskhashid获取任务id和活动推广二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zuwN0icWQ509iTbFPfPg-4" target="zuwN0icWQ509iTbFPfPg-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zuwN0icWQ509iTbFPfPg-4" target="zuwN0icWQ509iTbFPfPg-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-4" value="根据任务id获取任务详情" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="190" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-7" value="活动状态结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zuwN0icWQ509iTbFPfPg-9" target="zuwN0icWQ509iTbFPfPg-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-12" value="不是好友" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zuwN0icWQ509iTbFPfPg-10">
+          <mxGeometry x="0.2945" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zuwN0icWQ509iTbFPfPg-9" target="zuwN0icWQ509iTbFPfPg-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-13" value="是好友" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zuwN0icWQ509iTbFPfPg-11">
+          <mxGeometry x="0.2656" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-9" value="&lt;p&gt;组织数据，调用&lt;span style=&quot;color: rgb(220 , 220 , 170) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;TaskAndFriend&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="355" y="300" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-14" value="返回加好友推广图片&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(13 , 27 , 62 , 0.65) ; font-family: &amp;#34;monospaced number&amp;#34; , &amp;#34;chinese quote&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; text-align: left ; background-color: rgb(240 , 251 , 255)&quot;&gt;带参二维码&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-15" value="返回裂变海报图片&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(13 , 27 , 62 , 0.65) ; font-family: &amp;#34;monospaced number&amp;#34; , &amp;#34;chinese quote&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; text-align: left ; background-color: rgb(240 , 251 , 255)&quot;&gt;用户专属海报地址&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zuwN0icWQ509iTbFPfPg-16" value="http://yapi.xesv5.com/project/745/interface/api/14725 判断好友关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="310" width="370" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
