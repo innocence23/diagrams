@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:55:00.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="OvGoAx7PXOy2TKHLE9LP" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T10:09:40.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="S1MK0Px5Uw4TDsRhbbWZ" version="14.6.6" type="github">
   <diagram id="Bb6AxaMXB7mjzi2xFXWS" name="Page-1">
-    <mxGraphModel dx="1326" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2965" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,10 +255,8 @@
             <mxPoint x="1481.9300000000003" y="2224" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZ197hpL9WXQfLPrQU_h-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-89" target="MZ197hpL9WXQfLPrQU_h-144">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1920" y="2480" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="MZ197hpL9WXQfLPrQU_h-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-89" target="MZ197hpL9WXQfLPrQU_h-188">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MZ197hpL9WXQfLPrQU_h-89" value="插入boost表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="2370" width="120" height="60" as="geometry" />
@@ -358,18 +356,6 @@
         </mxCell>
         <mxCell id="MZ197hpL9WXQfLPrQU_h-141" value="&lt;u&gt;&lt;font color=&quot;#ff5c21&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;此处逻辑可以在用户参与活动，h5页面判断时生成&lt;/font&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1811" y="2160" width="670" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MZ197hpL9WXQfLPrQU_h-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-144" target="MZ197hpL9WXQfLPrQU_h-146">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MZ197hpL9WXQfLPrQU_h-144" value="如果存在tag，打标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="2474" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MZ197hpL9WXQfLPrQU_h-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-146" target="MZ197hpL9WXQfLPrQU_h-148">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MZ197hpL9WXQfLPrQU_h-146" value="生成自己专属海报。添加bind表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="2614" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ197hpL9WXQfLPrQU_h-150" value="开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-148" target="MZ197hpL9WXQfLPrQU_h-152">
           <mxGeometry relative="1" as="geometry">
@@ -488,6 +474,18 @@
         </mxCell>
         <mxCell id="MZ197hpL9WXQfLPrQU_h-183" value="插入bind表 ？？？&lt;br&gt;什么凌乱逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1481.93" y="2338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ197hpL9WXQfLPrQU_h-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-188" target="MZ197hpL9WXQfLPrQU_h-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ197hpL9WXQfLPrQU_h-188" value="生成自己专属海报。添加bind表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="2484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ197hpL9WXQfLPrQU_h-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ197hpL9WXQfLPrQU_h-192" target="MZ197hpL9WXQfLPrQU_h-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ197hpL9WXQfLPrQU_h-192" value="如果存在tag，打标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="2590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
