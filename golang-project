@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T03:18:50.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.6" etag="nHDNduyrVpGxaeFJxSew" type="github"><diagram id="PDWYNv8jx8es7EA6bUJk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-12T03:43:25.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="an_gg0y7yUFHvRk2d-al" version="14.6.6" type="github">
+  <diagram id="PDWYNv8jx8es7EA6bUJk" name="Page-1">
+    <mxGraphModel dx="988" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-1" target="Cf12N69Fq1fQy93YTZ-6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-1" value="初始化项目（git，表结构设计，目录结构设计）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-3" target="Cf12N69Fq1fQy93YTZ-6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-3" value="用docker组织开发部署环境，建立dockerfile及docker-compose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-7" target="Cf12N69Fq1fQy93YTZ-6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-7" value="在model建立interface（respository及service层的接口）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-9" target="Cf12N69Fq1fQy93YTZ-6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-9" value="实现respository及service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-11" target="Cf12N69Fq1fQy93YTZ-6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-11" value="实现handler及middleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-13" target="Cf12N69Fq1fQy93YTZ-6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-13" value="初始化依赖注入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-15" target="Cf12N69Fq1fQy93YTZ-6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-15" value="初始化修改入口文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-17" target="Cf12N69Fq1fQy93YTZ-6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-17" value="初始化配置及日志模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cf12N69Fq1fQy93YTZ-6-18" target="Cf12N69Fq1fQy93YTZ-6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-18" value="初始化数据库及连接数据库，建立model（entry）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf12N69Fq1fQy93YTZ-6-22" value="建立makefile文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
